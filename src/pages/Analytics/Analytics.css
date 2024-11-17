@@ -1,0 +1,9 @@
+.Analytics{
+    display: flex;
+    flex: 4;
+    
+}
+
+.topAnalytics{
+    flex: 3;
+}
