@@ -46,7 +46,7 @@ export default function Topbar() {
           <div className="topbarIconContainer">
             <SettingsIcon />
           </div>
-          <img src="images/user.png" className="topAvatar" />
+          <img src={`${process.env.PUBLIC_URL}/images/user.png`} className="topAvatar" alt="User Avatar" />
         </div>
       </div>
 
